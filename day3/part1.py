@@ -58,7 +58,6 @@ def part1():
                 sum += int(line[num_span[0]:num_span[1]])
             line = remove_first_number(line, num_span)
 
-
         i += 1
 
 part1()
